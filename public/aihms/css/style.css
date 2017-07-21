@@ -1,0 +1,243 @@
+
+p{
+    color: #666666;
+    line-height: 24px;
+    margin-bottom: 30px;
+
+}
+@media(min-width:768px){
+  .no-padding-right{
+  padding-right:0px
+}
+.pl-100{
+  padding-left:100px;
+  }
+  .pl-85{
+    padding-left:85px;
+    }}
+
+@media (min-width: 768px){
+  .no-margin{
+    margin-left:0px;
+    margin-right:0px;
+  }
+  .no-margin-right{
+    margin-right:0px;
+  }
+}
+@media (min-width: 768px){
+.navbar-collapse.collapse {
+    display: block!important;
+    height: auto!important;
+    padding-bottom: 0;
+    overflow: visible!important;
+}}
+
+@media (min-width: 768px){
+.navbar-toggle {
+    display: none;
+}
+.navbar-header {
+    float: left;
+}
+.navbar-right {
+    float: right!important;
+    margin-right: -15px;
+    margin: 24px 0;
+        padding: 29px 0px;
+}
+.navbar-nav>li {
+    float: left;
+}
+.navbar-collapse {
+    width: auto;
+    border-top: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x: visible;
+    -webkit-overflow-scrolling: touch;
+    border-top: 1px solid transparent;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.1);
+}}
+
+@media (min-width: 1200px){
+.container {
+    width: 1170px;
+}}
+.navbar{
+  padding:0px;
+}
+
+
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+.navbar-collapse:before , .nav:before{
+  display: table;
+  content: "";
+}
+.navbar-collapse::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ .navbar-nav li a{
+   font-size: 15px;
+ }
+ .navbar-nav li a:hover{
+   text-decoration: none;
+ }
+ .navbar-brand {
+    float: left;
+    height: auto;
+    padding: 15px 0px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.content ul{
+  list-style: none;
+  padding-left: 0px;
+}
+.ftr-health  h4 {
+    font-size: 18px;
+}
+.page-header {
+    padding: 8px 0;
+    background: #2b343b;
+}
+.attr-nav{
+  margin-left:0px !important;
+}
+.breadcrumb_title{
+  display: inline-block;
+  float: left;
+  font-size: 28px;
+  padding: 5px 0px;
+  margin-bottom:0px;
+
+}
+#breadcrumb{
+  float:left;
+  background-color: #fff;
+  width:100%;
+  padding:20px 40px;
+  margin-bottom:5px;
+}
+#breadcrumb .breadcrumb{
+  background-color: transparent;
+  margin: 0px;
+}
+#breadcrumb  .breadcrumb-item{
+  color:#000;
+  font-weight: 600;
+}
+#breadcrumb  .breadcrumb-item:hover{
+  text-decoration: none;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+      content: "|";
+      color:#000;
+      padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+#breadcrumb .breadcrumb-item.active{
+   color:#3ac636;
+}
+.card {
+box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0),0 2px 0px 0 rgba(0, 0, 0, 0.06);
+border: 0px;
+border-radius:0px;
+}
+
+/*-----------------ABOUT US PAGE--------------*/
+.uppercase{
+  text-transform: uppercase;
+}
+section{
+  padding:60px 0px;
+}
+#about_us{
+  background-color: #fff;
+  float:left;
+  padding-left:40px;
+  padding-right:40px;
+  background: url('../images/about/about_bg.jpg') center center;
+}
+.text-light{
+  font-weight: 300;
+}
+.title{
+  display:inline-block;
+  margin-bottom:30px;
+  position: relative;
+  padding-bottom:15px;
+}
+.title::before{
+  content: "";
+  position:absolute;
+  width:130px;
+  height:2px;
+  background-color: #3ac636;
+  bottom:0;
+  left:45px;
+}
+.download_brochure{
+  position:absolute;
+  bottom:15px;
+  left:30px;
+}
+.down_icon{
+  float:left;
+  color:#fff;
+}
+.down_text{
+  float:left;
+  color:#fff;
+}
+#mission_vision{
+ background-color: #f6f6f6;
+}
+@media(min-width:768px){
+.mission_icon , .vision_icon {
+  position:absolute;
+  left:-90px;
+}
+.mission{
+  padding-top:80px;
+  padding-bottom:50px;
+  }
+.vision{
+  padding-bottom:52px;
+  }}
+  @media(max-width:768px){
+  .mission_icon , .vision_icon {
+    padding:30px 0px;
+  }
+}
+/*----------OUR CLINICS--------*/
+
+#clinics{
+  float:left;
+  padding-top:0px;
+  background-color: #fff;
+}
+#clinics .clinic-item{
+  padding:75px;
+}
+.clinic-item h5{
+  margin-bottom:15px;
+}
+.clinic-item h5:before{
+  content:url('../images/about/title_icon.png');
+  position:absolute;
+  left:30px;
+  top:70px;
+}
